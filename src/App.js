@@ -1,15 +1,12 @@
-import React from "react";
 import "./App.css";
+import Todo from "./components/todo/Todo";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1 className="header">Hello world</h1>
-        <p>Lorem2</p>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Todo />
+    </div>
+  );
+};
 
 export default App;
