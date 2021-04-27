@@ -1,10 +1,15 @@
 import React from "react";
 import "./App.css";
 
-function App() {
-  return <h1 className="header">Hello world</h1>;
-  // mengunakan jsx sama seperti diatas
-  return React.createElement("h1", { class: "header1" }, "Hello, world");
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1 className="header">Hello world</h1>
+        <p>Lorem2</p>
+      </div>
+    );
+  }
 }
 
 export default App;
